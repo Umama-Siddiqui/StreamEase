@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Watch Video - StreamEase</title>
+    <link rel="stylesheet" href="assets/styling/watch.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="logo.html" class="logo"><img src="assets/images/logo.png" alt="StreamEase Logo" class="logoimg"></a>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li class="dropdown">
+                    <a href="account.html">Account</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="account.html">Profile</a></li>
+                        <li><a href="logout.html">Logout</a></li>
+                    </ul>
+                </li>
+                <li><a href="#search" class="search-icon"><i class="fas fa-search"></i></a></li>
+            </ul>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Video Watch Section -->
+    <section class="video-watch">
+        <div class="video-container">
+            <video controls class="video-player">
+                <source src="assets/video/video-website.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="video-details">
+            <h1>Video Title</h1>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="video-meta">
+                <span class="views">Views: 1,234</span>
+                <span class="date">Released: September 10, 2024</span>
+            </div>
+            <div class="actions">
+                <button class="btn-like">Like</button>
+                <button class="btn-dislike">Dislike</button>
+                <button class="btn-add-to-playlist">Add to Playlist</button>
+            </div>
+             <!-- Back Button -->
+             <div class="back-button-container">
+                <button onclick="history.back()" class="btn-back">Back</button>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="home.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="privacy-policy.html">Privacy Policy</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://facebook.com" target="_blank" class="social-icon"><img src="assets/images/fac.png" alt="Facebook"></a>
+                <a href="https://twitter.com" target="_blank" class="social-icon"><img src="assets/images/twe.png" alt="Twitter"></a>
+                <a href="https://instagram.com" target="_blank" class="social-icon"><img src="assets/images/ins.png" alt="Instagram"></a>
+                <a href="https://linkedin.com" target="_blank" class="social-icon"><img src="assets/images/lin.png" alt="LinkedIn"></a>
+            </div>
+            <p>&copy; 2024 StreamEase. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- External JS -->
+    <script src="scripts.js"></script>
+</body>
+</html>
+

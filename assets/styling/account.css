@@ -1,0 +1,303 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* General Navbar Styles */
+.navbar {
+    background-color: #1d1f21;
+    color: white;
+    padding: 1rem 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: #e50914; /* Netflix-like red hover effect */
+}
+.logoimg{
+    height: 60px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #e50914;
+}
+
+/* Dropdown Menu */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    border-radius: 4px;
+    display: none;
+    flex-direction: column;
+    min-width: 150px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu li {
+    padding: 0.75rem;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #444;
+}
+
+/* Search Icon */
+.search-icon i {
+    font-size: 1.2rem;
+}
+
+/* Hamburger Menu */
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.3s;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Account Page Styles */
+#account-page {
+    background-color: #1d1f21;
+    color: white;
+    padding: 2rem 0;
+}
+
+.account-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #2a2d31;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+.account-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.account-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #f5f5f5;
+}
+
+.account-header p {
+    font-size: 1.1rem;
+    color: #b0b0b0;
+}
+
+/* Account Content */
+.account-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.profile-info, .subscription-info {
+    flex: 1;
+    min-width: 300px;
+    background-color: #33373b;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.profile-info h2, .subscription-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #f5f5f5;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #b0b0b0;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4b4f54;
+    color: #f5f5f5;
+    font-size: 1rem;
+}
+
+.form-group input::placeholder {
+    color: #cccccc;
+}
+
+/* Buttons */
+.btn-save, .btn-subscribe, .btn-cancel {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-save {
+    background-color: #28a745;
+    color: white;
+    margin-top: 1rem;
+}
+
+.btn-save:hover {
+    background-color: #218838;
+}
+
+.btn-subscribe {
+    background-color: #007bff;
+    color: white;
+    margin-right: 1rem;
+}
+
+.btn-subscribe:hover {
+    background-color: #0056b3;
+}
+
+.btn-cancel {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-cancel:hover {
+    background-color: #c82333;
+}
+
+/* Subscription Info */
+.subscription-plan p {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    color: #f5f5f5;
+}
+
+footer {
+    background-color: #1d1f21;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-links, .footer-social {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a, .footer-social a {
+    color: white;
+    font-size: 1rem;
+    position: relative;
+}
+
+.footer-links a:hover, .footer-social a:hover {
+    color: #ff4757;
+    text-shadow: 0 0 5px #ff4757;
+}
+
+.footer-social img {
+    width: 30px;
+    height: 30px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.footer-social img:hover {
+    filter: grayscale(0%);
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #bbb;
+}
